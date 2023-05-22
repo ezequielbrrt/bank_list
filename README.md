@@ -4,8 +4,21 @@
 App that shows a list of banks and store locally the data in order to avoid more network requests
 
 ## Architecture
+To create this app I following the architecture 
+- VIPER 
+With a extra layer called 
+  - Remote Data
+Where I have two options Remote and Local in order to make api requests or request info th the data base 
 
-Viper architecture following this template https://github.com/ezequielbrrt/ios_viper_template
+** VIPER template used https://github.com/ezequielbrrt/ios_viper_template
+
+## Design Patters
+I uses the following desing patterns in order to create the app
+
+- Singleton
+  -  In order to access the database data 
+- DSL
+  -   In order to abstract the logic of get image from urls
 
 ## UI 
 
